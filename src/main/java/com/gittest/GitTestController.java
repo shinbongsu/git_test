@@ -15,4 +15,9 @@ public class GitTestController {
 	public String hello(){
 		return "Say Hello";
 	}
+	
+	@RequestMapping("/feature")
+	public String feature(){
+		return "feature1";
+	}
 }
