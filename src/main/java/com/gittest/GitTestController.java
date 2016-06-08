@@ -18,6 +18,6 @@ public class GitTestController {
 	
 	@RequestMapping("/feature")
 	public String feature(){
-		return "feature1";
+		return "feature2";
 	}
 }
