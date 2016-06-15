@@ -20,4 +20,9 @@ public class GitTestController {
 	public String feature(){
 		return "feature2";
 	}
+	
+	@RequestMapping("/feature4")
+	public String feature4(){
+		return "feature4";
+	}
 }
